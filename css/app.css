@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab','serif';    
+    box-sizing: border-box;
+}
+
+
+/* ----------------Header---------------- */
+header {            
+    height: 500px;
+    width: 100%;    
+    background: linear-gradient(to right, rgba(0, 0, 0, .65), rgba(0, 0, 0, .65)), url(../images/cafeteria.jpg);                
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;    
+}
+
+#area-header {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    text-align: center;        
+    align-items: center;
+    justify-content: center;    
+}
+
+#titulo {
+    text-align: center;
+    max-width: 780px;
+    font-size: 36px;
+    color: white;
+    z-index: 10;
+}
+
+#area-imagen-autor {
+    width: 100%;
+    position: absolute;
+    top: 450px;
+    z-index: 10;    
+}
+
+#imagen-autor {
+    height: 100px;  
+    width: 120px;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+
+/* ----------------Información autor---------------- */
+#informacion-autor {    
+    margin-top: 50px;
+    text-align: center;
+    line-height: 24px;
+}
+
+.propiedades-autor {
+    font-family: 'Source Sans Pro' , 'sans-serif';
+    font-size: 18px;
+    color:rgb(51,51,51);
+}
+
+#nombre-autor {
+    font-weight: bold;
+}
+
+#ultima-actualizacion {    
+    font-style: italic;
+    border-bottom: 2px solid #e6e6e6;
+    padding-bottom: 10px;    
+}
+
+
+/* ----------------Contenido principal---------------- */
+#area-contenido {
+    margin-top: 60px;
+    width: 100%;
+}
+
+.contenido {
+    margin-left:auto;
+    margin-right:auto;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 120px;
+}
+
+.area-informacion-bebida {
+    width: 66.67%;
+}
+
+.nombre-bebida {
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(51,51,51);
+}
+
+#numero-bebida {
+    color: rgba(0,0,0,0.25);
+    margin-right: 40px;
+}
+
+.enlace {
+    margin-bottom: 20px;
+}
+
+.direccion {
+    color: #42b4d6;
+    text-decoration:none;
+}
+
+.direccion:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-family: 'Source Sans Pro','sans-serif';
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(51,51,51);
+    margin-bottom: 20px;
+}
+
+.recomendacion {
+    font-family: 'Source Sans Pro','sans-serif';
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.imagen-bebida {
+    width: 100%;
+}
+
+
+/* ----------------Footer---------------- */
+footer {            
+    height: 140px;
+    width: 100%;    
+    background: linear-gradient(to right, rgba(0, 0, 0, .65), rgba(0, 0, 0, .65)), url(../images/cafeteria.jpg);                
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+}
+footer p{   
+    color: white; 
+    text-align: center;
+    padding: 40px;
+}
