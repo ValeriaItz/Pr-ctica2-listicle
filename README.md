@@ -3,4 +3,4 @@ Construcción de una página web de lista (listicle.html) que muestra las "4 beb
 
 Una listicle es un tipo de artículo algo moderno que utiliza una lista como estructura temática.
 
-## Valeria Itzel López Hernández
+Valeria Itzel López Hernández
